@@ -1,0 +1,16 @@
+# Welcome Message
+
+
+~>opts usermessage join channel #(channel name)
+
+..................
+
+~>opts usermessage joinmessage Welcome to $(event.guild.name), $(event.user.mention). You are our $(event.guild.totalusers)th member!
+
+.....OR...........
+
+~>opts usermessage joinmessage embed:author:"Welcome to $(event.guild.name)",
+authorImg:"https://i.imgur.com/C281v2xl.png", title:"Welcome to fuckery of epic proportions.  Sit down, shut up and hang on",
+description:"Be Well $(event.user.mention).  You are our $(event.guild.totalusers)th member!",
+thumbnail:"$(event.user.avatar)",
+color:"821f01"
